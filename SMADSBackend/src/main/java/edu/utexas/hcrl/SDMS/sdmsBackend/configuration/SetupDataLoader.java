@@ -69,7 +69,8 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         }
 
         List<Manager> authorizedManagersGmails = new ArrayList<>();
-        authorizedManagersGmails.add(new Manager("smads.manager@gmail.com"));
+        authorizedManagersGmails.add(new Manager("trayveet@gmail.com"));
+        authorizedManagersGmails.add(new Manager("nabilrami@gmail.com"));
         managerRepository.saveAll(authorizedManagersGmails);
 
        createServiceLocationIfNotFound("Anna Hiss", LocationType.officebuilding, "AHG", true, true, 30.2880730961, -97.7376866001);

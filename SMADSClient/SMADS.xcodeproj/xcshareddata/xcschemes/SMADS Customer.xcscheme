@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1200"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8EA16D042491769100173A11"
-               BuildableName = "Texas Botler.app"
+               BuildableName = "TrayVeet.app"
                BlueprintName = "SMADS Customer"
                ReferencedContainer = "container:SMADS.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8EA16D042491769100173A11"
-            BuildableName = "Texas Botler.app"
+            BuildableName = "TrayVeet.app"
             BlueprintName = "SMADS Customer"
             ReferencedContainer = "container:SMADS.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8EA16D042491769100173A11"
-            BuildableName = "Texas Botler.app"
+            BuildableName = "TrayVeet.app"
             BlueprintName = "SMADS Customer"
             ReferencedContainer = "container:SMADS.xcodeproj">
          </BuildableReference>

@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>BASE_URL_ENDPOINT_SERVER</key>
 	<string>$(BASE_URL_ENDPOINT_SERVER)</string>
 	<key>BASE_URL_ENDPOINT_WEBSOCKET</key>
@@ -9,7 +14,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Botler Manager</string>
+	<string>TrayVeet Manager</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,7 +34,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>your_google_auth_client_key</string>
+				<string>com.googleusercontent.apps.1083449761434-2gvu7ji7321j18ij9bn50v9i5vb88qj5</string>
 			</array>
 		</dict>
 	</array>

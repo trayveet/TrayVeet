@@ -17,5 +17,8 @@ public class TestCommunicationController {
     @GetMapping("/ssl")
     public boolean testSSLCommunication(HttpServletResponse response) {
         return robotClient.testSSLCommunication();
+                //true;
+
+
     }
 }

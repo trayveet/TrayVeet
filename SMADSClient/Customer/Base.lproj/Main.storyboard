@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K0a-9I-veK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K0a-9I-veK">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -14,7 +14,7 @@
         <!--Trips-->
         <scene sceneID="D8L-fv-2s1">
             <objects>
-                <viewController title="Trips" id="PW6-zf-v3g" customClass="UserHistoryViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Trips" id="PW6-zf-v3g" customClass="UserHistoryViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="42Y-Mo-BPP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="userHistoryTableViewCell" rowHeight="85" id="XHH-sW-h8Q" userLabel="UserHistoryTableViewCell" customClass="UserHistoryTableViewCell" customModule="Texas_Botler" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="userHistoryTableViewCell" rowHeight="85" id="XHH-sW-h8Q" userLabel="UserHistoryTableViewCell" customClass="UserHistoryTableViewCell" customModule="TrayVeet" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XHH-sW-h8Q" id="dN5-Sh-Wit">
@@ -145,7 +145,7 @@
         <!--User History Details View Controller-->
         <scene sceneID="qTZ-z9-EPP">
             <objects>
-                <viewController id="mgN-7a-T9H" customClass="UserHistoryDetailsViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mgN-7a-T9H" customClass="UserHistoryDetailsViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ig-Th-L0z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -359,7 +359,7 @@
         <!--Customer Tab Bar Controller-->
         <scene sceneID="wS5-gv-Qtu">
             <objects>
-                <tabBarController storyboardIdentifier="clientEntryViewController" automaticallyAdjustsScrollViewInsets="NO" id="ThP-85-rk6" customClass="CustomerTabBarController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="clientEntryViewController" automaticallyAdjustsScrollViewInsets="NO" id="ThP-85-rk6" customClass="CustomerTabBarController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="GzP-ju-GTc"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="spg-sT-rSN">
@@ -380,7 +380,7 @@
         <!--My Account-->
         <scene sceneID="AWw-EX-4X9">
             <objects>
-                <viewController title="My Account" id="dI1-ch-Iif" customClass="AccountViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Account" id="dI1-ch-Iif" customClass="AccountViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lEG-ko-QeE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -409,7 +409,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="recentOrderSummaryCell" id="IOk-j9-ALH" customClass="RecentOrderSummaryCollectionViewCell" customModule="Texas_Botler" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="recentOrderSummaryCell" id="IOk-j9-ALH" customClass="RecentOrderSummaryCollectionViewCell" customModule="TrayVeet" customModuleProvider="target">
                                                 <rect key="frame" x="42.666666666666664" y="0.0" width="290" height="208"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jws-9H-2Ar">
@@ -642,7 +642,7 @@
         <!--Account Settings-->
         <scene sceneID="UG1-rL-br3">
             <objects>
-                <viewController title="Account Settings" id="DeK-c8-L17" customClass="AccountSettingViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Account Settings" id="DeK-c8-L17" customClass="AccountSettingViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CTB-iC-AMY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -801,7 +801,7 @@
         <!--Active Trip View Controller-->
         <scene sceneID="Gk9-HG-HCn">
             <objects>
-                <viewController storyboardIdentifier="ActiveTripViewController" id="QcT-hh-cl6" customClass="ActiveTripViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActiveTripViewController" id="QcT-hh-cl6" customClass="ActiveTripViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kMc-NH-rgW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -878,7 +878,7 @@
         <!--Confirm Pickup View Controller-->
         <scene sceneID="xth-w9-wzd">
             <objects>
-                <viewController storyboardIdentifier="ConfirmPickupViewController" id="BjF-Jl-oc3" customClass="ConfirmPickupViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConfirmPickupViewController" id="BjF-Jl-oc3" customClass="ConfirmPickupViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4e9-LG-eZC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -946,7 +946,7 @@
         <!--Order a Lemonade-->
         <scene sceneID="NKo-FX-fSU">
             <objects>
-                <viewController storyboardIdentifier="LemonadeRequestViewController" id="gGm-nF-kXa" customClass="LemonadeRequestViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LemonadeRequestViewController" id="gGm-nF-kXa" customClass="LemonadeRequestViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bxP-XU-6uH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1083,7 +1083,7 @@ is currently closed.</string>
         <!--Deliver where?-->
         <scene sceneID="YfB-8s-MVW">
             <objects>
-                <viewController id="esP-I3-2ft" customClass="LemonadeDropoffViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="esP-I3-2ft" customClass="LemonadeDropoffViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Q7-YT-9th">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1092,7 +1092,7 @@ is currently closed.</string>
                                 <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="lemonadeDropoffCell" rowHeight="75" id="Mrw-uK-XaQ" customClass="LemonadeDropoffTableViewCell" customModule="Texas_Botler" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="lemonadeDropoffCell" rowHeight="75" id="Mrw-uK-XaQ" customClass="LemonadeDropoffTableViewCell" customModule="TrayVeet" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mrw-uK-XaQ" id="PEd-IK-72c">
@@ -1178,7 +1178,7 @@ is currently closed.</string>
         <!--Order Summary-->
         <scene sceneID="djV-ab-5F6">
             <objects>
-                <viewController id="lFd-Eb-GsN" customClass="LemonadeOrderSummaryViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lFd-Eb-GsN" customClass="LemonadeOrderSummaryViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UAc-oY-l9e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1287,7 +1287,7 @@ is currently closed.</string>
         <!--Authorize View Controller-->
         <scene sceneID="s0D-xW-jVf">
             <objects>
-                <viewController storyboardIdentifier="authorizeViewController" id="a9I-Ic-qYt" customClass="AuthorizeViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="authorizeViewController" id="a9I-Ic-qYt" customClass="AuthorizeViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t9O-IY-JAW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1300,39 +1300,33 @@ is currently closed.</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" name="tint"/>
-                                <state key="normal" title="Log in with @utexas.edu">
+                                <state key="normal" title="Log in with Gmail Account">
                                     <color key="titleColor" systemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
                                     <action selector="didTapLoginWithGoogle:" destination="a9I-Ic-qYt" eventType="touchUpInside" id="wuv-qV-zdn"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="botler" translatesAutoresizingMaskIntoConstraints="NO" id="fbx-Ba-ggV">
-                                <rect key="frame" x="25" y="113.00000000000003" width="325" height="296.66666666666674"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="botler" translatesAutoresizingMaskIntoConstraints="NO" id="fbx-Ba-ggV">
+                                <rect key="frame" x="25" y="113" width="325" height="317"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qe6-mn-jln">
-                                <rect key="frame" x="25" y="423.66666666666669" width="325" height="81.666666666666686"/>
-                                <string key="text">Welcome to
-Texas Botler</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="TrayVeet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qe6-mn-jln">
+                                <rect key="frame" x="25" y="444" width="325" height="81.666666666666629"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIe-sy-ld8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metikas LLC." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIe-sy-ld8">
                                 <rect key="frame" x="16" y="735" width="343" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="iZ1-fT-wp0"/>
                                 </constraints>
-                                <string key="text">Brought to you by
-Short to Medium Range Autonomous Delivery System Project</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Toe-QC-USn">
-                                <rect key="frame" x="80.333333333333329" y="513.33333333333337" width="214.33333333333337" height="40.666666666666629"/>
-                                <string key="text">University of Texas at Austin
- Robot Deliveries</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fast Robot Deliveries" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Toe-QC-USn">
+                                <rect key="frame" x="107.33333333333333" y="533.66666666666652" width="160.33333333333337" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1406,7 +1400,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
         <!--What went wrong?-->
         <scene sceneID="QvL-zU-SgU">
             <objects>
-                <viewController id="7OK-NB-VBa" customClass="ReportAnIssueViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7OK-NB-VBa" customClass="ReportAnIssueViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yC2-Qe-OYG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1421,7 +1415,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
                                             <constraint firstAttribute="height" constant="250" id="vDr-Nd-kzZ"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tripIssueTableViewCell" rowHeight="59" id="EbA-xL-bMy" customClass="TripIssueTableViewCell" customModule="Texas_Botler" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tripIssueTableViewCell" rowHeight="59" id="EbA-xL-bMy" customClass="TripIssueTableViewCell" customModule="TrayVeet" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="59"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EbA-xL-bMy" id="PeY-qM-d06">
@@ -1526,7 +1520,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
         <!--User Order Map Full Screen View Controller-->
         <scene sceneID="Ded-Wb-Az1">
             <objects>
-                <viewController id="Yx1-YQ-Ec1" customClass="UserOrderMapFullScreenViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yx1-YQ-Ec1" customClass="UserOrderMapFullScreenViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bcu-ti-Ky9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1550,19 +1544,19 @@ Short to Medium Range Autonomous Delivery System Project</string>
         <!--Queued Trip View Controller-->
         <scene sceneID="Kda-Uz-lMr">
             <objects>
-                <viewController storyboardIdentifier="QueuedTripViewController" id="7wW-VT-RI8" customClass="QueuedTripViewController" customModule="Texas_Botler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QueuedTripViewController" id="7wW-VT-RI8" customClass="QueuedTripViewController" customModule="TrayVeet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y2r-4D-LFw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lemon" translatesAutoresizingMaskIntoConstraints="NO" id="162-xC-LnU">
-                                <rect key="frame" x="0.0" y="113.99999999999999" width="375" height="170.66666666666663"/>
+                                <rect key="frame" x="0.0" y="114" width="375" height="196"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="0zI-Ha-FrW"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your lemonade is up next" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEx-7y-IbK">
-                                <rect key="frame" x="16" y="327.66666666666669" width="343" height="119"/>
+                                <rect key="frame" x="16" y="353" width="343" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="119" id="9eF-he-wMW"/>
                                 </constraints>
@@ -1571,7 +1565,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimated Delivery Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbR-4h-wwM">
-                                <rect key="frame" x="0.0" y="462.66666666666669" width="375" height="21"/>
+                                <rect key="frame" x="0.0" y="488" width="375" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Q48-jP-Mnv"/>
                                 </constraints>
@@ -1580,7 +1574,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waK-Bx-7fs">
-                                <rect key="frame" x="0.0" y="499.66666666666674" width="375" height="41"/>
+                                <rect key="frame" x="0.0" y="525" width="375" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="e6R-BY-lec"/>
                                 </constraints>
@@ -1589,7 +1583,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This page will update once a robot has been assigned to your delivery. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmh-jp-zZL">
-                                <rect key="frame" x="16" y="556.66666666666663" width="343" height="84"/>
+                                <rect key="frame" x="16" y="582" width="343" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="QrU-Ac-0PT"/>
                                 </constraints>
@@ -1598,7 +1592,7 @@ Short to Medium Range Autonomous Delivery System Project</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gum-i4-uWR">
-                                <rect key="frame" x="32" y="648.66666666666663" width="311" height="34"/>
+                                <rect key="frame" x="32" y="674" width="311" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Yrv-o9-Q1t"/>
                                 </constraints>
@@ -1670,9 +1664,6 @@ Short to Medium Range Autonomous Delivery System Project</string>
         <namedColor name="tint">
             <color red="0.33500000834465027" green="0.72100001573562622" blue="0.73299998044967651" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <systemColor name="groupTableViewBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

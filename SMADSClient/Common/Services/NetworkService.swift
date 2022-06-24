@@ -9,10 +9,10 @@
 import Foundation
 
 struct NetworkConstants {
-//    static let baseURL = Bundle.main.infoDictionary!["BASE_URL_ENDPOINT_SERVER"] as! String
-//    static let baseWebsocketURL = Bundle.main.infoDictionary!["BASE_URL_ENDPOINT_WEBSOCKET"] as! String
-    static let baseURL = "https://hypnotoad.csres.utexas.edu:8443"
-    static let baseWebsocketURL = "wss://hypnotoad.csres.utexas.edu:8443/client/websocket"
+    static let baseURL = Bundle.main.infoDictionary!["BASE_URL_ENDPOINT_SERVER"] as! String
+    static let baseWebsocketURL = Bundle.main.infoDictionary!["BASE_URL_ENDPOINT_WEBSOCKET"] as! String
+    //static let baseURL = "https://hypnotoad.csres.utexas.edu:8443"
+    //static let baseWebsocketURL = "wss://hypnotoad.csres.utexas.edu:8443/client/websocket"
 ////        static let baseURL = "https://ut-smads.herokuapp.com"
 //        static let baseWebsocketURL = "wss://ut-smads.herokuapp.com/client/websocket"
     static let tokenKey = "token"

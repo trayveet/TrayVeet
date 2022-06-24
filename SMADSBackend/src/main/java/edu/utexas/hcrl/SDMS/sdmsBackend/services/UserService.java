@@ -98,11 +98,13 @@ public class UserService implements UserDetailsService {
         Role userRole = roleRepository.findByName(type.toString());
         User newUser = new User(userRole);
         User potentialExistingUser = getUserByUsername(username);
+        System.out.println(potentialExistingUser);
         if (potentialExistingUser == null) {
             newUser.setUsername(username);
             newUser.setPassword(passwordEncoder.encode(clearPassword));
             newUser.setFirstName(givenName);
             newUser.setLastName(familyName);
+            System.out.println(newUser);
             return userRepository.save(newUser);
         }
         throw new UserAlreadyExistsException("User already exists in the database");

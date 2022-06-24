@@ -10,6 +10,6 @@ import GoogleSignIn
 
 class GoogleSignInManager {
     static func setup() {
-        GIDSignIn.sharedInstance().clientID = "751823011237-f986utomd6l8u4unk71cadsvrib6su51.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "1083449761434-2gvu7ji7321j18ij9bn50v9i5vb88qj5.apps.googleusercontent.com"
     }
 }

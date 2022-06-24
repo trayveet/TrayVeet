@@ -145,7 +145,6 @@
 		A451D42A24F8611E00D166A0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451D42924F8611E00D166A0 /* PaymentViewController.swift */; };
 		A451D44C24F9ABCE00D166A0 /* ReportAnIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451D44B24F9ABCE00D166A0 /* ReportAnIssueViewController.swift */; };
 		A451D44E24F9BCB600D166A0 /* TripIssueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451D44D24F9BCB600D166A0 /* TripIssueTableViewCell.swift */; };
-		A461834624CA12080009D847 /* smads-self.pem in Resources */ = {isa = PBXBuildFile; fileRef = A461834524CA12080009D847 /* smads-self.pem */; };
 		A461834A24CE0AFC0009D847 /* LemonadeRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A461834924CE0AFC0009D847 /* LemonadeRequestViewController.swift */; };
 		A461834C24CE12870009D847 /* LemonadeDropoffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A461834B24CE12870009D847 /* LemonadeDropoffViewController.swift */; };
 		A461834E24CE1CD20009D847 /* LemonadeDropoffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A461834D24CE1CD20009D847 /* LemonadeDropoffTableViewCell.swift */; };
@@ -209,11 +208,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		017029CA40E309179A9A8A95 /* Pods-SMADS Customer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Customer.release.xcconfig"; path = "Target Support Files/Pods-SMADS Customer/Pods-SMADS Customer.release.xcconfig"; sourceTree = "<group>"; };
 		03ECF005B54971D0015F6E9E /* Pods-SMADS Manager.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.dev.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.dev.xcconfig"; sourceTree = "<group>"; };
 		20AEFCB2441058D67783998F /* Pods_SMADS_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMADS_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23118CE2252D572A002B32DD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		23118CF1252D5828002B32DD /* SMADS Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMADS Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23118CFA252D5828002B32DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23118CFF252D582A002B32DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23118D01252D582A002B32DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -236,7 +233,6 @@
 		23D20C2B2537D7620053DEDC /* NewManagerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewManagerRequest.swift; sourceTree = "<group>"; };
 		23D20C2D2537E8F00053DEDC /* ManagerAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAppDelegate.swift; sourceTree = "<group>"; };
 		23F5585825326D0A004D76A0 /* StoreDescriptionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDescriptionRequest.swift; sourceTree = "<group>"; };
-		391E8D7626FF634B77E011F8 /* Pods-SMADS Customer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Customer.debug.xcconfig"; path = "Target Support Files/Pods-SMADS Customer/Pods-SMADS Customer.debug.xcconfig"; sourceTree = "<group>"; };
 		497D8E4E2B66364077B40DD6 /* Pods-SMADS Customer.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Customer.dev.xcconfig"; path = "Target Support Files/Pods-SMADS Customer/Pods-SMADS Customer.dev.xcconfig"; sourceTree = "<group>"; };
 		758360B424E5327B00EC3401 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		75BA234824AEF42B00F6CC06 /* ServiceLocationAddScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocationAddScreenViewController.swift; sourceTree = "<group>"; };
@@ -244,9 +240,7 @@
 		75BA234C24AEFD9100F6CC06 /* NewServiceLocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServiceLocationRequest.swift; sourceTree = "<group>"; };
 		75BFE6F924E128FB00D23E25 /* UpdateUserInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserInfoRequest.swift; sourceTree = "<group>"; };
 		75F9EC7024DB54AD00BA3CD3 /* MyAccountManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountManagerViewController.swift; sourceTree = "<group>"; };
-		78B8205152259DD0E9F7CDBE /* Pods-SMADS Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.release.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.release.xcconfig"; sourceTree = "<group>"; };
 		8E607FE424A3F9B9009E1D67 /* Adminstrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adminstrator.swift; sourceTree = "<group>"; };
-		8EA16D052491769100173A11 /* Texas Botler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texas Botler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA16D082491769100173A11 /* CustomerAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerAppDelegate.swift; sourceTree = "<group>"; };
 		8EA16D0A2491769100173A11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8EA16D112491769400173A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -288,7 +282,6 @@
 		A454021424A557D800BF9D55 /* SpotDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		A454021624A5615200BF9D55 /* AllTripsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTripsResponse.swift; sourceTree = "<group>"; };
 		A458215524A2E27500F82BE5 /* ServiceLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocationViewController.swift; sourceTree = "<group>"; };
-		A461834524CA12080009D847 /* smads-self.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = "smads-self.pem"; sourceTree = SOURCE_ROOT; };
 		A461834924CE0AFC0009D847 /* LemonadeRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeRequestViewController.swift; sourceTree = "<group>"; };
 		A461834B24CE12870009D847 /* LemonadeDropoffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeDropoffViewController.swift; sourceTree = "<group>"; };
 		A461834D24CE1CD20009D847 /* LemonadeDropoffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeDropoffTableViewCell.swift; sourceTree = "<group>"; };
@@ -324,8 +317,6 @@
 		A4C7457C24C90D9900F97503 /* AccountManagementTableVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementTableVIewCell.swift; sourceTree = "<group>"; };
 		A4C7457F24C950A000F97503 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
 		A4C7C3EF2560CC6800E30507 /* TripManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManager.swift; sourceTree = "<group>"; };
-		A4C7C3F12564942B00E30507 /* Texas Botler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Texas Botler.entitlements"; sourceTree = "<group>"; };
-		A4C7C3F22564945900E30507 /* SMADS Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SMADS Manager.entitlements"; sourceTree = "<group>"; };
 		A4C7C3F32564AAC700E30507 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A4C7C3F52564AB6E00E30507 /* AddTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTokenRequest.swift; sourceTree = "<group>"; };
 		A4C7C3F92564CDF600E30507 /* SimpleSuccessResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSuccessResponse.swift; sourceTree = "<group>"; };
@@ -342,11 +333,14 @@
 		A4F251E4252A367000336EAD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A4F251E9252A369100336EAD /* SpotConditionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotConditionResponse.swift; sourceTree = "<group>"; };
 		A4F251F8252A370700336EAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A516E1A0BD50E0D16769605A /* Pods-SMADS Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.debug.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D50D0DFF9EF9727574FC59 /* Pods-SMADS Customer.heroku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Customer.heroku.xcconfig"; path = "Target Support Files/Pods-SMADS Customer/Pods-SMADS Customer.heroku.xcconfig"; sourceTree = "<group>"; };
 		BD06CF77A222441D5036BE85 /* Pods-SMADS Manager.app store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.app store.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.app store.xcconfig"; sourceTree = "<group>"; };
 		BF489FA1394A0B24D30FE12A /* Pods-SMADS Manager.ut.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.ut.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.ut.xcconfig"; sourceTree = "<group>"; };
 		C16B30C88FEDB50260D193C6 /* Pods-SMADS Manager.heroku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Manager.heroku.xcconfig"; path = "Target Support Files/Pods-SMADS Manager/Pods-SMADS Manager.heroku.xcconfig"; sourceTree = "<group>"; };
+		CE0844E0275AE07D00EB505A /* TrayVeet Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TrayVeet Manager.entitlements"; sourceTree = "<group>"; };
+		CE0844E1275AE08500EB505A /* TrayVeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrayVeet.entitlements; sourceTree = "<group>"; };
+		CE08453B27603A7C00EB505A /* TrayVeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrayVeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0845C52760E9EE00EB505A /* TrayVeet Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrayVeet Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ECD6EC67B62C9C17D9F348 /* Pods_SMADS_Customer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMADS_Customer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F362261F746B32EDCC757EFB /* Pods-SMADS Customer.ut.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMADS Customer.ut.xcconfig"; path = "Target Support Files/Pods-SMADS Customer/Pods-SMADS Customer.ut.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -374,10 +368,6 @@
 		0C1B9B1140849E64E672C65B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				391E8D7626FF634B77E011F8 /* Pods-SMADS Customer.debug.xcconfig */,
-				017029CA40E309179A9A8A95 /* Pods-SMADS Customer.release.xcconfig */,
-				A516E1A0BD50E0D16769605A /* Pods-SMADS Manager.debug.xcconfig */,
-				78B8205152259DD0E9F7CDBE /* Pods-SMADS Manager.release.xcconfig */,
 				497D8E4E2B66364077B40DD6 /* Pods-SMADS Customer.dev.xcconfig */,
 				F362261F746B32EDCC757EFB /* Pods-SMADS Customer.ut.xcconfig */,
 				B0D50D0DFF9EF9727574FC59 /* Pods-SMADS Customer.heroku.xcconfig */,
@@ -407,7 +397,6 @@
 			isa = PBXGroup;
 			children = (
 				23118EA7252D708B002B32DD /* View */,
-				23118EA6252D7071002B32DD /* ViewControllers */,
 				A4CEE8D324A8371600A2069D /* Extensions */,
 				23118D57252D5A18002B32DD /* Utils */,
 				A44432892496B90C0046B925 /* Services */,
@@ -460,13 +449,6 @@
 			path = GoogleSignIn;
 			sourceTree = "<group>";
 		};
-		23118EA6252D7071002B32DD /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		23118EA7252D708B002B32DD /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,25 +491,17 @@
 		8EA16CFC2491769100173A11 = {
 			isa = PBXGroup;
 			children = (
-				A4C7C3F22564945900E30507 /* SMADS Manager.entitlements */,
-				A4C7C3F12564942B00E30507 /* Texas Botler.entitlements */,
+				CE0844E1275AE08500EB505A /* TrayVeet.entitlements */,
+				CE0844E0275AE07D00EB505A /* TrayVeet Manager.entitlements */,
 				23118CE2252D572A002B32DD /* Podfile */,
 				8EA16D072491769100173A11 /* Customer */,
 				23118CF2252D5828002B32DD /* Manager */,
 				23118D0C252D5846002B32DD /* Common */,
-				8EA16D062491769100173A11 /* Products */,
 				520F5C33B19956536378E456 /* Frameworks */,
 				0C1B9B1140849E64E672C65B /* Pods */,
+				CE08453B27603A7C00EB505A /* TrayVeet.app */,
+				CE0845C52760E9EE00EB505A /* TrayVeet Manager.app */,
 			);
-			sourceTree = "<group>";
-		};
-		8EA16D062491769100173A11 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8EA16D052491769100173A11 /* Texas Botler.app */,
-				23118CF1252D5828002B32DD /* SMADS Manager.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8EA16D072491769100173A11 /* Customer */ = {
@@ -535,7 +509,6 @@
 			children = (
 				A44432992496EA250046B925 /* ViewControllers */,
 				A444328C2496C9B40046B925 /* Views */,
-				A461834524CA12080009D847 /* smads-self.pem */,
 				8EA16D082491769100173A11 /* CustomerAppDelegate.swift */,
 				A4198604249AF41E00355948 /* Main.storyboard */,
 				8EA16D132491769400173A11 /* LaunchScreen.storyboard */,
@@ -714,7 +687,7 @@
 			);
 			name = "SMADS Manager";
 			productName = "SMADS Manager";
-			productReference = 23118CF1252D5828002B32DD /* SMADS Manager.app */;
+			productReference = CE0845C52760E9EE00EB505A /* TrayVeet Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8EA16D042491769100173A11 /* SMADS Customer */ = {
@@ -735,7 +708,7 @@
 			);
 			name = "SMADS Customer";
 			productName = Smds_app;
-			productReference = 8EA16D052491769100173A11 /* Texas Botler.app */;
+			productReference = CE08453B27603A7C00EB505A /* TrayVeet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -746,7 +719,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = groupproject;
+				ORGANIZATIONNAME = Metikas;
 				TargetAttributes = {
 					23118CF0252D5828002B32DD = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -765,7 +738,7 @@
 				Base,
 			);
 			mainGroup = 8EA16CFC2491769100173A11;
-			productRefGroup = 8EA16D062491769100173A11 /* Products */;
+			productRefGroup = 8EA16CFC2491769100173A11;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -792,7 +765,6 @@
 			files = (
 				23118CE3252D572A002B32DD /* Podfile in Resources */,
 				A4198606249AF41E00355948 /* Main.storyboard in Resources */,
-				A461834624CA12080009D847 /* smads-self.pem in Resources */,
 				8EA16D152491769400173A11 /* LaunchScreen.storyboard in Resources */,
 				8EA16D122491769400173A11 /* Assets.xcassets in Resources */,
 			);
@@ -1141,18 +1113,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Manager-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SMADS Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TrayVeet Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
 				INFOPLIST_FILE = "$(SRCROOT)/Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.managers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.manager.app;
+				PRODUCT_NAME = "TrayVeet Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1165,18 +1137,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Manager-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SMADS Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TrayVeet Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
 				INFOPLIST_FILE = "$(SRCROOT)/Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.managers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.manager.app;
+				PRODUCT_NAME = "TrayVeet Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1251,11 +1223,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Texas Botler.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = TrayVeet.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1263,8 +1236,8 @@
 				);
 				MARKETING_VERSION = 2.5;
 				MTL_ENABLE_DEBUG_INFO = "http://127.0.0.1:8080";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.customer;
-				PRODUCT_NAME = "Texas Botler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.app;
+				PRODUCT_NAME = TrayVeet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1278,18 +1251,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Manager-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SMADS Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TrayVeet Manager.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
 				INFOPLIST_FILE = "$(SRCROOT)/Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.managers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.manager.app;
+				PRODUCT_NAME = "TrayVeet Manager";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1364,11 +1339,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Texas Botler.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = TrayVeet.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1376,8 +1352,8 @@
 				);
 				MARKETING_VERSION = 2.5;
 				MTL_ENABLE_DEBUG_INFO = "http://127.0.0.1:8080";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.customer;
-				PRODUCT_NAME = "Texas Botler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.app;
+				PRODUCT_NAME = TrayVeet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1391,18 +1367,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Manager-AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SMADS Manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TrayVeet Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
 				INFOPLIST_FILE = "$(SRCROOT)/Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.managers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.manager.app;
+				PRODUCT_NAME = "TrayVeet Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1412,8 +1388,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BASE_URL_ENDPOINT_SERVER = "http://192.168.4.23:8080";
-				BASE_URL_ENDPOINT_WEBSOCKET = "ws://192.168.4.23:8080/client/websocket";
+				BASE_URL_ENDPOINT_SERVER = "http://localhost:8080";
+				BASE_URL_ENDPOINT_WEBSOCKET = "ws://localhost:8080/client/websocket";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1534,11 +1510,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Texas Botler.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = TrayVeet.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1546,8 +1523,8 @@
 				);
 				MARKETING_VERSION = 2.5;
 				MTL_ENABLE_DEBUG_INFO = "http://127.0.0.1:8080";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.customer;
-				PRODUCT_NAME = "Texas Botler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.app;
+				PRODUCT_NAME = TrayVeet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1560,19 +1537,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Texas Botler.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = TrayVeet.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EAW54S69NT;
+				DEVELOPMENT_TEAM = 5D89829JS8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Customer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashajain.smads.customer;
-				PRODUCT_NAME = "Texas Botler";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trayveet.app;
+				PRODUCT_NAME = TrayVeet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

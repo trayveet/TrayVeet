@@ -27,9 +27,10 @@ public class GoogleClient {
     @Autowired
     private ManagerService managerService;
 
-    private static final String CLIENT_ID = "your_google_auth_client_id";
+    private static final String CLIENT_ID = "1083449761434-2gvu7ji7321j18ij9bn50v9i5vb88qj5.apps.googleusercontent.com";
 
     public User validateGoogleIdToken(String idTokenString) throws GeneralSecurityException, IOException {
+        //System.out.println("validateGoogleIdToken.");
         HttpTransport transport = new NetHttpTransport();
         JsonFactory jsonFactory = new JacksonFactory();
         GoogleIdTokenVerifier verifier = new GoogleIdTokenVerifier.Builder(transport, jsonFactory)
@@ -40,6 +41,7 @@ public class GoogleClient {
         // (Receive idTokenString by HTTPS POST)
 
         GoogleIdToken idToken = verifier.verify(idTokenString);
+        System.out.println(idToken);
         if (idToken != null) {
             GoogleIdToken.Payload payload = idToken.getPayload();
 
@@ -50,13 +52,19 @@ public class GoogleClient {
             authorizedEmails.add("smads.customer@gmail.com");
             try {
                 RoleTypes usertype;
+                System.out.println(payload.getHostedDomain());
                 if (managerService.isAuthorizedManager(email)) {
                     usertype = RoleTypes.MANAGER;
-                } else if (payload.getHostedDomain() != null && (payload.getHostedDomain().equals("utexas.edu")) || authorizedEmails.contains(email) ||  payload.getHostedDomain().equals("austin.utexas.edu")) {
-                    usertype = RoleTypes.CUSTOMER;
+                    System.out.println("Manager");
+                    System.out.println(usertype);
+                //} else if (payload.getHostedDomain() != null && (payload.getHostedDomain().equals("utexas.edu")) || authorizedEmails.contains(email) ||  payload.getHostedDomain().equals("austin.utexas.edu")) {
                 } else {
-                    return null;
-                }
+                    usertype = RoleTypes.CUSTOMER;
+                    //System.out.println("Customer");
+                    //System.out.println(usertype);
+                } //else {
+                    //return null;
+                //}
                return userService.createNewUser(email, "", firstName, lastName, usertype);
             } catch (UserAlreadyExistsException e) {
                 return userService.getUserByUsername(email);
